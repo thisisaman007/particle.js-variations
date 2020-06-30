@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   
+}
+#particles-js{
+    height: 100%;
+    background: linear-gradient(#292121, #0f0b21, #1f1831, #180e34, #2d186a);
+}
+img{
+    height: 200px;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 33%;
+    animation: animate 0.5s linear infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes animate{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-5%,-5%);
+    }
+    
+}
